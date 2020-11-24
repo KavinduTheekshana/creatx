@@ -710,7 +710,8 @@
 }
 
 .event-card:hover .event-card-image-inner > img {
-  opacity: 0.5;
+  transform: scale(1.1);
+  /* opacity: 0.5; */
 }
 
 .event-card-list {
@@ -766,7 +767,7 @@
 }
 
 .event-card-content h3 a:hover {
-  color: var(--thm-primary);
+  color: var(--thm-base);
 }
 
 .team-3-col {
@@ -1868,6 +1869,29 @@ h6 {
   color: var(--thm-base);
   background-color: #fff;
 }
+
+.thm-btn2 {
+  display: inline-block;
+  vertical-align: middle;
+  border: none;
+  outline: none;
+  background-color: var(--thm-base);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: var(--thm-font);
+  padding: 16.5px 39.5px;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  background-color: var(--thm-base);
+  color: #fff;
+}
+
+.thm-btn2:hover {
+  color: var(--thm-base);
+  background-color: #000;
+}
+
 
 .block-text {
   font-size: 18px;
