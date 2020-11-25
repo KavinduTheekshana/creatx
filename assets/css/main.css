@@ -249,7 +249,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: RGBA(var(--thm-primary-rgb), 0.9);
+  background-color: RGBA(var(--thm-base-rgb), 0.9);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4854,7 +4854,7 @@ h6 {
 }
 
 .footer-widget__contact li a:hover {
-  color: var(--thm-primary);
+  color: var(--thm-base);
 }
 
 .footer-widget__contact li a > i {
